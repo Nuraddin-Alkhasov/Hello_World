@@ -1,3 +1,52 @@
 body{
-	background-color:yellow;
+font-family:Verdana;
+font-size:13px;
+}
+
+.outlined{
+	outline: 1px #333 dotted;
+}
+
+.clearfix::before, .clearfix::after {
+    content:"";
+    display:table;
+}
+.clearfix::after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#top-menu{
+	display:inline-block;
+	float:left;
+	margin-left:300px;
+
+}
+
+#logo{
+	display:inline-block;
+	float:left;
+}
+
+#search{
+	display:inline-block;
+	float:right;
+}
+
+.container{
+	width: 1000px;
+	outline: 1px red dotted;
+	margin: 0 auto;
+}
+
+#top-menu li{
+	display:inline-block;
+	padding: 10px;
+}
+
+#top-menu li a{
+	text-decoration:none;
+	color:#333;
 }
